@@ -1,0 +1,16 @@
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: flex-end;
+    vertical-align: middle;
+    width: 97%;
+    height: 10%;
+}
+
+.spacer{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 220px;
+    justify-content: space-between;
+}
