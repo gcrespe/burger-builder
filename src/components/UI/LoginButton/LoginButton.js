@@ -1,9 +1,7 @@
 import React,{Component} from 'react'
 import 'antd/dist/antd.css'
 import './LoginButton.css'   
-import { Drawer, Form, Button, Col, Row, Input, Select, DatePicker } from 'antd';
-
-const { Option } = Select;
+import {Drawer, Form, Button, Col, Row, Input} from 'antd';
 
 class loginButton extends Component {
     state = { visible: false };

@@ -4,12 +4,6 @@ import {Button, Tooltip} from 'antd'
 import 'antd/dist/antd.css'
 
 const buildControl = (props) => {
-
-    const content = (
-        <div>
-            <p>The price of this item is: </p>
-        </div>
-    ); 
     return(
         <div style={{marginTop: 30}}>
             <div className='BuildControl'>

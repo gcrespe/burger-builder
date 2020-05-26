@@ -1,5 +1,4 @@
 import React from 'react'
-import Aux from '../../../hoc/Aux'
 import './OrderSummary.css'
 
 const orderSummary = (props) => {
@@ -11,12 +10,12 @@ const orderSummary = (props) => {
                 </li>)
     })
     return(
-        <Aux>
+        <div>
             <p>A delicious burger with the following ingredients:</p>
                 {ingredientSummary}
                 <p></p>
             <p><strong>Total Price: R${props.price}</strong></p>
-        </Aux>
+        </div>
     )
 
 };
